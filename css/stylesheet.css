@@ -4,7 +4,7 @@
 	font-family: 'KosugiMaru';
 	font-weight: 400;
 	font-style: normal;
-	src: url('/fonts/KosugiMaru-R.woff2') format('woff2');
+	src: url('fonts/KosugiMaru-R.woff2') format('woff2');
 	font-display: swap;
 }
 
@@ -39,7 +39,7 @@ header div {
 }
 
 .logo {
-  background-image: url(/images/logo-v2.png);
+  background-image: url(images/logo-v2.png);
   height: 30px;
   width: 200px;
   float: left;
@@ -142,15 +142,15 @@ li a {
 }
 
 .index .top-content {
-  background-image: url(/images/index.jpg);
+  background-image: url(images/index.jpg);
 }
 
 .about .top-content-mini {
-  background-image: url(/images/about.jpg);
+  background-image: url(images/about.jpg);
 }
 
 .favorite .top-content-mini div:first-child {
-  background-image: url(/images/favorite.png);
+  background-image: url(images/favorite.png);
   margin: 0;
   height: 120px;
   background-size: contain;
@@ -158,7 +158,7 @@ li a {
 }
 
 .favorite .top-content-mini div:last-child {
-  background-image: url(/images/favorite-game.png);
+  background-image: url(images/favorite-game.png);
   margin: 0;
   height: 120px;
   background-size: contain;
@@ -167,11 +167,11 @@ li a {
 }
 
 .extra .top-content {
-  background-image: url(/images/extra.jpg);
+  background-image: url(images/extra.jpg);
 }
 
 .update-history .top-content {
-  background-image: url(/images/update-history-2.jpg);
+  background-image: url(images/update-history-2.jpg);
 }
 
 .contents .image {
@@ -204,26 +204,26 @@ li a {
 }
 
 .why-matcha {
-  background-image: url(/images/why-matcha.jpg);
+  background-image: url(images/why-matcha.jpg);
 }
 
 .profile-bg {
-  background-image: url(/images/profile-bg.jpg);
+  background-image: url(images/profile-bg.jpg);
 }
 
 .profile-music {
-  background-image: url(/images/profile-music.jpg);
+  background-image: url(images/profile-music.jpg);
 }
 
 .update-history-image {
-  background-image: url(/images/update-history.jpg);
+  background-image: url(images/update-history.jpg);
   height: 100%;
   background-position: center;
   background-size: cover;
 }
 
 .credits {
-  background-image: url(/images/credits.jpg);
+  background-image: url(images/credits.jpg);
 }
 
 label {
