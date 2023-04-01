@@ -485,7 +485,7 @@ h1, h2, a, p {
 }
 
 footer::before {
-  content: 'Ver. 14.0.1 / 2023-04-02';
+  content: 'Ver. 14.1.0 / 2023-04-02';
   background-color: rgba(0, 0, 0, 0.1);
   color: white;
   display: block;
