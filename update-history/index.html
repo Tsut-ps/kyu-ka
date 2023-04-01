@@ -82,7 +82,7 @@
             <p>どこかのページにアクセスすると+1人として数える仕組み。ただし、更新しまくっても+1人としてされないように対策済み。セッション数とか訪問者数とかのイメージ。</p>
             <p>5月に鯖を変えたときに、鯖側に残っていたカウント情報から訪問者数を抽出して、それを初期値に設定。そこからの計測なので推定値になるよ。</p>
             <p>また、カウンター設置に伴い、階層をまるごと変更した。今まで「/about.html」だったのを「/about/」で表示できるようにした……などなど。</p>
-            <p><span class="counter"><?php echo $total; ?><span class="mini">xxxx人目の訪問者!</span> <span class="mini-mini">今日<?php echo $today; ?>xxxx人 昨日<?php echo $yesterday; ?>xxxx人</span></span></p>
+            <p><span class="counter"><span class="mini">xxxx人目の訪問者!</span> <span class="mini-mini">今日xxxx人 昨日xxxx人</span></span></p>
             <!-- GitHub Pages で phpファイルが扱えないため、この機能は廃止された↑ -->
             <div class="detail">
                 <p class="mini">推定値。鯖情報から設置前の分を加算済み。F5対策済み。</p>
